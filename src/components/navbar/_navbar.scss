@@ -8,15 +8,17 @@
     align-items: center;
     max-width: 2000px;
     padding: 20px;
+    box-sizing: border-box;
     .logo{
         cursor: pointer;
     }.links-container{
         display: flex;
      
         height: 50px;
-        width: 50%;
+      
         align-items: center;
         justify-content: space-between;
+    
     }
     .navbar-links{
         display: flex;
@@ -45,6 +47,9 @@
                 // }
             
             
+        }
+        @include mobile{
+            display: none;
         }
        
     }.hamburger{

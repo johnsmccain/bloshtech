@@ -1,11 +1,19 @@
+@import "./mixin";
 // reset 
 htm, *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
+    @include tablet{
+        font-size: 9px;
+    }
+    @include tablet{
+        font-size: 7px;
+    }
 }
 body{
-    font-size: 16px;
+    
     padding: 0;
     margin: 0;
 }

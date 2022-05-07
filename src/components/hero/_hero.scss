@@ -4,6 +4,8 @@
 .hero{
     height:calc(100vh - 90px) ;
     position: relative;
+    font-size: 0px;
+   
     &-container{
         display: flex;
         align-items: center;
@@ -14,9 +16,10 @@
             font-family: $mainFont;
             color: white;
             font-size:10rem;
-
+           
             span{
                 color: $blue-tx;
+                font-size: inherit;
             }
             
         }
