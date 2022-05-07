@@ -39,11 +39,15 @@
             .desc{
                 color: white;
                 font-size: 1.5rem;
-                padding: 20px;
+                padding: 10px;
                 font-family: $mainFont;
                 border: 0.78px solid $yellow;
                 font-weight: 400;
                 line-height: 32px;
+                @include tablet{
+                    padding: 5px 10px;
+                    letter-spacing: 2px;
+                }
             }
             .media{
                 width: 20%;
@@ -55,14 +59,22 @@
                 color: white;
                 display: flex;
                 align-items: center;
-                width: 150px;
+                // width: 150px;
                 justify-content: center;
-                padding: 7px;
+                padding: 7px 10px;
                 border: none;
-               
+                border-radius: 5px;
                 cursor: pointer;
+
                 .icon{
                     margin-left: 10px;
+                }
+                @include tablet{
+                    font-size: 1.7em;
+                    letter-spacing: 2px;
+                    .icon{
+                        font-size: 1.3em;
+                    }
                 }
             }
         }
