@@ -1,0 +1,68 @@
+@import "../../styles/global";
+@import "../../styles/variable";
+
+.navbar{
+    background: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    padding: 20px;
+    .logo{
+        cursor: pointer;
+    }.links-container{
+        display: flex;
+     
+        height: 50px;
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-links{
+        display: flex;
+        li{
+            margin: 0 10px;
+            position: relative;
+            a{
+                padding: 10px;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 15px;
+
+                &::before{
+                    content: "";
+                    position: absolute;
+                    } 
+                    &:hover{
+                    border-left: 2px solid #DD3030;
+                    border-bottom: 2px solid #DD3030;
+                    }
+                }
+                // &:active{
+                    
+                
+                // }
+            
+            
+        }
+       
+    }.hamburger{
+                
+                width: 30px;
+                height: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                cursor: pointer;
+                .line{
+                    width: 70%;
+                    height: 2px;
+                    background: rgb(255, 255, 255);
+                    &:first-child{
+                        width: 100%;
+                    }
+                }
+            }
+}
