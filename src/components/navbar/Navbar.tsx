@@ -10,17 +10,21 @@ function Navbar() {
         <div className="links-container">
 
         <ul className='navbar-links'>
-            <li>
-                <a href="#home">Home</a>
+            <li className='active'>
+                <a href="#home">Home<div ></div></a>
+                
             </li>
             <li>
-                <a href="#about">About</a>
+                <a href="#about">About<div></div></a>
+                
             </li>
             <li>
-                <a href="#services">Services</a>
+                <a href="#services">Services<div></div></a>
+                
             </li>
             <li>
-                <a href="#contact">Contact us</a>
+                <a href="#contact">Contact us<div></div></a>
+                
             </li>  
         </ul>
       <div className="hamburger">

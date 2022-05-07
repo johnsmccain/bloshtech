@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div className='home'>
       <header>
+        <div className='overlay2'></div>
         <Navbar/>
         <Hero/>
       </header>
