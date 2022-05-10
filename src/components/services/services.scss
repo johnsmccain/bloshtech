@@ -1,0 +1,55 @@
+@import "../../styles/variable";
+.services{
+
+    position: relative;
+    &-bg{
+        position: absolute;
+        background: url(../../assets/p8.jpg) center;
+        background-size: cover;
+        height: 70vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(224, 200, 168,0.4);
+            z-index: -1;
+        }
+    }
+    &-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .title{
+            font-size: 9rem;
+          
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $primary;
+        }
+        .sub-title{
+            font-size: 3rem;
+        }
+        .cards{
+            margin: 30px;
+            // background: #000;
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            height: 100%;
+            justify-content: space-evenly;
+            max-width: 1200px;
+            
+
+        }
+    }
+
+}
