@@ -5,7 +5,7 @@ import { Navbar, Hero, Services,Footer } from '../../components'
 const Home = () => {
   return (
     <div className='home'>
-      <header>
+      <header id='hero'>
         <div className='overlay2'></div>
         <Navbar/>
         <Hero/>
