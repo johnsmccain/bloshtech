@@ -1,8 +1,9 @@
 @import "../../styles/variable";
+@import "../../styles/mixin";
 .services{
 
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     &-bg{
         position: absolute;
         background: url(../../assets/p8.jpg) center;
@@ -48,8 +49,17 @@
             justify-content: space-evenly;
             max-width: 1200px;
             
+            @include mobile{
+                display: none;
+            }
 
         }
+    }
+
+    .activities{
+
+        width: 100%;
+        max-width: 1290px;
     }
 
 }

@@ -1,3 +1,4 @@
+@import "../../styles/mixin";
 .card{
     
     width: 200px;
@@ -24,7 +25,7 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-        text-align: center;
+      
         img{
             margin: 10px;
             width: 40px;
@@ -32,10 +33,13 @@
         h2{
             font-weight: 600px;
             font-size: 1.5em;
-            margin: 10px;
+            margin: 3px;
         }
         &-info{
-            padding: 10px 30px;
+            padding: 10px 10px;
+            font-size: 14px;
+            
+            
         }
     }
 }

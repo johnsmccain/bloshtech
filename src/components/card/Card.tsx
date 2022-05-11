@@ -1,16 +1,21 @@
-import React from 'react'
+import React,{FC} from 'react'
 import { Link } from 'react-router-dom'
 import icon from '../../assets/robotics.svg'
 import "./card.scss"
-function Card() {
+interface IProps {
+  img:any
+  title: string
+  text: string
+}
+const Card:FC<IProps> =({img,title, text}:IProps)=> {
   return (
-    <Link to="" className='card'>
+    <Link to={title == "Robot"? "/": title} className='card'>
         <div className="card-container">
             <div className="card-container-icon">
-                <img src={icon} alt="icon" />
-                <h2 className="h2">ROBOTICS</h2>
+                <img src={img} alt="icon" />
+                <h2 className="h2">{title}</h2>
             </div>
-            <p className="card-container-info">Hand on activities, Games STEM, IoT</p>
+            <p className="card-container-info">{text}</p>
         </div>
     </Link>
   )
