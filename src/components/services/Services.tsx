@@ -2,7 +2,7 @@ import React,{FC} from 'react';
 import {Card} from "../";
 import Activity from '../activity/Activity';
 import "./services.scss";
-//import coding from "../../assets/coding.png"
+import coding from "../../assets/coding.png"
 import robot from "../../assets/activity.png"
 import robotics from "../../assets/robotics.svg"
 import codings from "../../assets/coding.svg"
@@ -29,7 +29,7 @@ const Services:FC  =()=> {
         <div className="activities">
           <Routes>
             <Route path='/' element={<Activity  img={robot} svg={robotics} text="Hands-on activities, Games, STEM," />}></Route>
-            <Route path='/Coding' element={<Activity  img={codings} svg={codings} text="Scratch, Python, HTML, PHP, Android" />}></Route>
+            <Route path='/Coding' element={<Activity  img={coding} svg={codings} text="Scratch, Python, HTML, PHP, Android" />}></Route>
             <Route path='/Compatition' element={<Activity  img={stem2} svg={stem} text="Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming" />}></Route>
           </Routes>
         </div>
