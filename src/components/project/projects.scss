@@ -1,0 +1,50 @@
+@import "../../styles/variable";
+.project{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    .bg-overlay{
+        background: url(../../assets/c.jpg) center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;z-index: -2;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: $transparentBG;
+            z-index: -1;
+        }
+    }.title{
+        font-size: 3.9rem;
+        color: white;
+        font-weight: 500;
+        svg{
+            color: $yellow;
+            font-size: 18px;
+        }
+    }
+    &-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 700px;
+    }
+    .video-container{
+        background: #000;
+        height: 300px;
+        width: 200px;
+        margin: 20px;
+    }
+
+}

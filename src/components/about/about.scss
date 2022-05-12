@@ -1,0 +1,42 @@
+@import "../../styles/variable";
+@import "../../styles/mixin";
+.about{
+
+    background: rgb(0, 20, 29);
+    color: white;
+    &-contaner{
+        display: flex;
+        align-items: center;
+        @include mobile{
+            display: block;
+        }
+        &-info{
+            flex: 1;
+            min-width: 350px;
+           padding: 10px;
+           &-heading{
+               padding: 20px 0;
+               h2{
+                   font-size: 2rem;
+                   svg{
+                     color: $green;  
+                   }
+               }
+               .sub-title{
+                   color: $green;
+               }
+           }
+           .lead{
+               line-height: 24px;
+               letter-spacing: 2px;
+               @include mobile{
+                   font-size: 13px;
+                   padding: 20px 0;
+               }
+           }
+        }
+        &-photo{
+            flex: 2;
+        }
+    }
+}

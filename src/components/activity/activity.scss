@@ -1,8 +1,11 @@
 @import "../../styles/variable";
+@import "../../styles/mixin";
 .activity{
    
     padding: 20px;
-    
+    @include mobile{
+        padding: 0;
+    }
     &-container{
         display: flex; 
         background: $primary;

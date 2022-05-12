@@ -3,7 +3,7 @@
 .services{
 
     position: relative;
-    min-height: 100vh;
+    padding: 20px 0 0 0;
     &-bg{
         position: absolute;
         background: url(../../assets/p8.jpg) center;
@@ -54,12 +54,28 @@
             }
 
         }
+        .links{
+            display: flex;
+            padding: 20px;
+            .navlink{
+                padding:  7px 20px;
+                font-size: 16px;
+                border-radius: 5px;
+                &:active{
+                    background: $yellow;
+                }
+            }
+            @media screen and (min-width:500px) {
+                display: none;
+            }
+        }
     }
 
     .activities{
 
         width: 100%;
         max-width: 1290px;
+        transition: div 5s ;
     }
 
 }

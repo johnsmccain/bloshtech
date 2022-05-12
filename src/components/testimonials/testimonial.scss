@@ -1,0 +1,56 @@
+@import "../../styles/variable";
+@import "../../styles/mixin";
+.testimonial{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    &-container{
+        padding: 20px;
+        @include mobile{
+            padding: 0;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;justify-content: center;
+        .title-info{
+            padding: 20px;
+            .title{
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg{
+                    font-size: 2rem;
+                    margin-top: .71rem;
+                    color: $primary;
+                }
+            }
+            .text-info{
+                text-align: center;
+                color: $primary;
+                font-size: 14px;
+            }
+        }
+       
+    } &-card-container{
+           
+            padding: 0;
+            width: 100%;
+        }
+    .link{
+        padding: 20px;
+display: flex;
+align-items: center;
+        font-size: 18px;
+        svg{
+            background: $red;
+            border-radius: 50%;
+            padding: 2px;
+            color: white;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+    }
+}

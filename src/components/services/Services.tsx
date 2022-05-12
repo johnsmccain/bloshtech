@@ -9,7 +9,7 @@ import codings from "../../assets/coding.svg"
 import stem from "../../assets/compatition.svg"
 import stem2 from "../../assets/stem.png"
 
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 const Services:FC  =()=> {
   return (
     <div className='services'>
@@ -25,6 +25,11 @@ const Services:FC  =()=> {
           <Card  img={robotics} title='Robot' text='Hands-on activities, Games, STEM,'/>
           <Card img={codings} title='Coding' text='Scratch, Python, HTML, PHP, Android'/>
           <Card  img={stem} title='Compatition' text='Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming'/>
+        </div>
+        <div className="links">
+          <Link className='navlink' to="/">Robot</Link>
+          <Link className='navlink' to="/Coding">Coding</Link>
+          <Link className='navlink' to="/Compatition">Stem</Link>
         </div>
         <div className="activities">
           <Routes>
