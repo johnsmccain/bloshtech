@@ -1,5 +1,6 @@
 import React,{FC} from 'react';
 import {Card} from "../";
+import Tabs from "./tabs/Tabs"
 import Activity from '../activity/Activity';
 import "./services.scss";
 import coding from "../../assets/coding.png"
@@ -8,8 +9,10 @@ import robotics from "../../assets/robotics.svg"
 import codings from "../../assets/coding.svg"
 import stem from "../../assets/compatition.svg"
 import stem2 from "../../assets/stem.png"
-
+import {} from "@mui/material"
 import { Link, Route, Routes } from 'react-router-dom';
+
+
 const Services:FC  =()=> {
   return (
     <div className='services'>
@@ -37,6 +40,7 @@ const Services:FC  =()=> {
             <Route path='/Coding' element={<Activity  img={coding} svg={codings} text="Scratch, Python, HTML, PHP, Android" />}></Route>
             <Route path='/Compatition' element={<Activity  img={stem2} svg={stem} text="Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming" />}></Route>
           </Routes>
+          <Tabs/>
         </div>
        </div>
     
