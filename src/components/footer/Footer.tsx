@@ -27,10 +27,10 @@ function Footer() {
                 </ul>
                 <div className="footer-container-icons">
                 
-                    <a href="http://instgram.com" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
-                    <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
-                    <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
-                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
+                    <a href="http://instgram.com/bloshtech" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
+                    {/* <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
+                    <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a> */}
+                    <a href="http://facebook.com/bloshtech" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
                 </div>
             </div>
             <a href='#hero' className="footer-container-text">

@@ -1,4 +1,5 @@
 @import "../../../styles/variable";
+@import "../../../styles/mixin";
 .carousel-root {
     width: 60% !important;
     margin: auto !important;
@@ -128,4 +129,11 @@
       width: 24% !important;
       border-radius: 50%;
     }
+  }
+  .carousel{
+    @include mobile{
+      width:350px !important;
+    }
+ 
+    
   }

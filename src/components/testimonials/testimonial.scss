@@ -38,6 +38,9 @@
            
             padding: 0;
             width: 100%;
+            // @include mobile{
+            //     display: none;
+            // }
         }
     .link{
         padding: 20px;

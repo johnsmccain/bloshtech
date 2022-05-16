@@ -6,7 +6,7 @@ import mouse from "../../assets/mouse.svg"
 import "./_hero.scss"
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id='home'>
         <div className="hero-container">
             <h1 className="title"><span>blosh</span>-tech</h1>
             <h3 className="sub-title">preparing the young for the future</h3>

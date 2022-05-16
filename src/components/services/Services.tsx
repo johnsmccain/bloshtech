@@ -24,22 +24,9 @@ const Services:FC  =()=> {
         <h4 className="sub-title">
           our services
         </h4>
-        <div className="cards">
-          <Card  img={robotics} title='Robot' text='Hands-on activities, Games, STEM,'/>
-          <Card img={codings} title='Coding' text='Scratch, Python, HTML, PHP, Android'/>
-          <Card  img={stem} title='Compatition' text='Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming'/>
-        </div>
-        <div className="links">
-          <Link className='navlink' to="/">Robot</Link>
-          <Link className='navlink' to="/Coding">Coding</Link>
-          <Link className='navlink' to="/Compatition">Stem</Link>
-        </div>
+        
         <div className="activities">
-          <Routes>
-            <Route path='/' element={<Activity  img={robot} svg={robotics} text="Hands-on activities, Games, STEM," />}></Route>
-            <Route path='/Coding' element={<Activity  img={coding} svg={codings} text="Scratch, Python, HTML, PHP, Android" />}></Route>
-            <Route path='/Compatition' element={<Activity  img={stem2} svg={stem} text="Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming" />}></Route>
-          </Routes>
+        
           <Tabs/>
         </div>
        </div>

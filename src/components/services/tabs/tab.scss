@@ -1,0 +1,33 @@
+@import '../../../styles/mixin';
+@import '../../../styles/variable';
+
+ .tab1{
+     display: none;
+ }
+@include tablet{
+   .tab1{
+        display: block !important;
+  }
+    .tab2{
+        display: none !important;
+    }
+   
+}.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: $yellow !important;
+    font: 1.3em sans-serif !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: $yellow!important;
+    font: 2.5em sans-serif !important;
+    @include mobile{
+        font-weight: bold !important;
+    }
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color: $primary !important;
+}
+.css-19kzrtu{
+    @include mobile{
+        padding: 5px 0 0 0 !important;
+    }
+}

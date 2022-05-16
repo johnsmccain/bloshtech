@@ -6,13 +6,13 @@ import "./slide.scss"
 export default class Testimonials extends Component {
   render() {
     return (
-      <Carousel
+      <Carousel className="carousel"
         showArrows={true}
         infiniteLoop={true}
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
-        interval={6100}
+        interval={6100} 
       >
         <div>
           <img src={rb} />

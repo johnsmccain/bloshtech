@@ -14,6 +14,10 @@
         right: 0;
         bottom: 0;
         z-index: -2;
+        @include mobile{
+            min-height: 20vh;
+            height: 100%;
+        }
         &::after{
             content: "";
             position: absolute;
@@ -21,7 +25,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(224, 200, 168,0.4);
+            background-color: rgba(68, 48, 23, 0.7);
             z-index: -1;
         }
     }
@@ -31,10 +35,10 @@
         align-items: center;
         justify-content: center;
         .title{
-            font-size: 9rem;
-          
+            font-size: 8rem;
+          text-transform: uppercase;
             -webkit-text-fill-color: transparent;
-            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-width: 3px;
             -webkit-text-stroke-color: $primary;
         }
         .sub-title{
