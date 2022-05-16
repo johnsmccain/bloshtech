@@ -7,6 +7,9 @@ import robotics from "../../../assets/vector1.svg"
 import codings from "../../../assets/vector3.svg"
 import stem from "../../../assets/vector4.svg"
 import stem2 from "../../../assets/stem.png"
+import stemsvg from "../../../assets/compatition.svg"
+import codingsvg from "../../../assets/coding.svg"
+import roboticsvg from "../../../assets/robotics.svg"
 import "./tab.scss"
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -58,7 +61,7 @@ export default function BasicTabs() {
         <Tabs value={value} onChange={handleChange} centered >
           <Tab label="Robotitcs" {...a11yProps(0)} />
           <Tab label="Coding" {...a11yProps(1)} />
-          <Tab label="Compatition" {...a11yProps(2)} />
+          <Tab label="COMPETITION" {...a11yProps(2)} />
         </Tabs>
       </Box>
     {/* </div> */}
@@ -66,17 +69,17 @@ export default function BasicTabs() {
 
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }} className="tab2">
         <Tabs value={value} onChange={handleChange} centered>
-          <Tab label={<Card  img={robotics} title='Robot' text='Hands-on activities, Games, STEM,'/>
+          <Tab label={<Card  img={roboticsvg} title='ROBOTICS' text='Hands-on activities, Games, STEM,'/>
 }  {...a11yProps(0)} />
-          <Tab label={<Card img={codings} title='Coding' text='Scratch, Python, HTML, PHP, Android'/>} {...a11yProps(1)} />
-          <Tab label={<Card  img={stem} title='Compatition' text='Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming'/>} {...a11yProps(2)} />
+          <Tab label={<Card img={codingsvg} title='CODING' text='Scratch, Python, HTML, PHP, Android'/>} {...a11yProps(1)} />
+          <Tab label={<Card  img={stemsvg} title='COMPETITION' text='Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming'/>} {...a11yProps(2)} />
         </Tabs>
       </Box>
     {/* </div> */}
 
 
       <TabPanel value={value} index={0}>
-        <Activity  img={robot} svg={robotics} text="Hands-on activities, Games, STEM," />
+        <Activity  img={robot} svg={robotics} text="ROBOTIC TEAM BUIDING ACTIVITIES" />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <Activity  img={coding} svg={codings} text="Scratch, Python, HTML, PHP, Android" />

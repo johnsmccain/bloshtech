@@ -28,6 +28,14 @@
         box-shadow: 3px 3px 30px 0.03px $primary;
 
     }
+    
+        .card-container-info{
+            opacity: 1;
+            position: relative;
+            z-index: 1;
+        }
+        
+   
     @include mobile{
         font-weight: bold !important;
     }

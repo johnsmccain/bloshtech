@@ -13,7 +13,7 @@ function Footer() {
 
                 </p>
                 <p>
-                Email:<a href="mailto:hello@blosh.com"> hello@blosh.com</a>
+                Email:<a href="mailto:bloshhub@gmail.com"> bloshhub@gmail.com</a>
                 </p>
             </div> 
             <div className="footer-container-navbar">

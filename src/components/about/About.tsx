@@ -13,9 +13,7 @@ function About() {
                     <p className="sub-title">Thing we have made</p>
                 </div>
                 <p className="lead">
-                BLOSH TECH EDUCATIONAL HUB, a company devoted to empowering, mentoring and creating opportunities for girls and boys in Africa to learn Coding, Robotics and STEAM education to prepare them for the work force of the high tech future. 
-
-{/* We exist to innovate and create tech solutions including the design of interactive LEGO robotics activities  useful for team building and collaboration purposes in social, corporate and religious environments etc. */}
+             We are devoted to preparing youngsters for the workforce of the high-tech future through Coding, Robotics, and STEAM education. We utilize Robotic team building activities to promote collaboration and teamwork in corporate, social, and religious environments.
                 </p>
             </div>
             <div className="photo">

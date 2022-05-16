@@ -10,6 +10,7 @@
     background: white;
     margin: 20px;
     color: $primary;
+    
 
     &:active{
         border: 1px solid blue;
@@ -27,7 +28,9 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-      
+        width: 100%;
+        position: relative;
+        transition: all .51s ease;
         img{
             margin: 10px;
             width: 40px;
@@ -37,12 +40,29 @@
             font-size: 1.5em;
             margin: 3px;
         }
+        &-icon{
+            background: rgb(255, 255, 255);
+            z-index: 3;
+            width: 100%;
+        }
         &-info{
             padding: 10px 10px;
             font-size: 14px;
             color: #555;
-            
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            transition: all .51s ease;
+            z-index: -1;
         }
+    }
+    &:hover{
+        .card-container-info{
+            opacity: 1;
+            position: relative;
+            z-index: 1;
+        }
+        
     }
     
 }

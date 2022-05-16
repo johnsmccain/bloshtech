@@ -51,7 +51,7 @@ function Projects() {
                   <img src={mediaIcon} alt="player" className="video-button" onClick={()=> setSelectedVideo(item.id)}/>
                 <p>{item.name}</p>
                 </div>
-                <img src={pic} alt="play" />
+                <img src={pic} alt="play" className='poster'/>
                 {item.id === selectedVideo && <div className="iwrap"><div className="close" onClick={() =>setSelectedVideo(false)}>X</div>  <iframe src={item.vid} ></iframe></div>}
               </div>
             ))
