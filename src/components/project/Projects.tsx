@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { BsDashLg }from "react-icons/bs"
 import vidrobot from '../../assets/robotvid.mp4'
 import pic from '../../assets/p8.jpg'
+import mediaIcon from "../../assets/foundation_play-video.svg"
 import { MotionContext,motion, AnimatePresence}from "framer-motion"
 import "./projects.scss"
 // import { Item } from 'framer-motion/types/components/Reorder/Item'
@@ -45,9 +46,13 @@ function Projects() {
         <div className="project-container">
           {
             items.map(item => (
-              <div className="video-container" key={item.id} onClick={()=> setSelectedVideo(item.id)}>
+              <div className={`video-container ${item.id == selectedVideo && "openMedia"}`} key={item.id} >
+                <div className="video-overlay">
+                  <img src={mediaIcon} alt="player" className="video-button" onClick={()=> setSelectedVideo(item.id)}/>
+                <p>{item.name}</p>
+                </div>
                 <img src={pic} alt="play" />
-                {item.id === selectedVideo && <div className="iwrap"><div className="close" onClick={() =>setSelectedVideo(null)}>X</div>  <iframe src={item.vid} ></iframe></div>}
+                {item.id === selectedVideo && <div className="iwrap"><div className="close" onClick={() =>setSelectedVideo(false)}>X</div>  <iframe src={item.vid} ></iframe></div>}
               </div>
             ))
           }

@@ -1,4 +1,5 @@
 @import "../../styles/mixin";
+@import "../../styles/variable";
 .card{
     
     width: 200px;
@@ -8,6 +9,7 @@
     justify-content: center;
     background: white;
     margin: 20px;
+    color: $primary;
 
     &:active{
         border: 1px solid blue;
@@ -38,7 +40,7 @@
         &-info{
             padding: 10px 10px;
             font-size: 14px;
-            
+            color: #555;
             
         }
     }

@@ -24,6 +24,10 @@ function Navbar() {
                 
             </li>
             <li>
+                <a href="#blog">Blog<div></div></a>
+                
+            </li>
+            <li>
                 <a href="#services">Services<div></div></a>
                 
             </li>
@@ -50,6 +54,7 @@ function Navbar() {
                             
                             <ListItemText  primary={<a className="menu-link" href="#home">Home</a>} />
                             <ListItemText  primary={<a className="menu-link" href="#about">About</a>} />
+                            <ListItemText  primary={<a className="menu-link" href="#blog">Blog</a>} />
                             <ListItemText  primary={<a className="menu-link" href="#services">Services</a>} />
                             <ListItemText  primary={<a className="menu-link" href="#contact">Contact us</a>} />
                             

@@ -67,11 +67,12 @@
             
         }
 
-        @include mobile{
+        @include tablet{
             display: none;
         }
        
     }.hamburger{
+        
                 
                 width: 30px;
                 height: 20px;
@@ -95,7 +96,13 @@
                 width: 40%;
                 justify-content: space-between;
             }
+            .hamburger{
+                display: none;
+            }
         }
+        // @include tablet{
+
+        // }
         position: relative;
         .mobile-overlay{
             color: #fff;

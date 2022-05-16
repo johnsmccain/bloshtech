@@ -1,13 +1,13 @@
 import React from 'react'
 import "./footer.scss"
-import {GoRocket} from "react-icons/go"
+import rocket from "../../assets/vector2.svg"
 import {FaArrowUp, FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa"
 function Footer() {
   return (
     <div className='footer'>
         <div className="footer-container">
            <div className="footer-container-info">
-                <h2>Take a ride with us <GoRocket className="icon"/></h2>   
+                <h2>Take a ride with us <img src={rocket} className="icon"/></h2>   
                 <p>
                 Call & WhatsApp:<a href="tel:+2347061040362"> +2347061040362</a>
 

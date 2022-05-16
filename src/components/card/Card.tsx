@@ -9,7 +9,7 @@ interface IProps {
 }
 const Card:FC<IProps> =({img,title, text}:IProps)=> {
   return (
-    <Link to={title == "Robot"? "/": title} className='card'>
+    <div className='card'>
         <div className="card-container">
             <div className="card-container-icon">
                 <img src={img} alt="icon" />
@@ -17,7 +17,7 @@ const Card:FC<IProps> =({img,title, text}:IProps)=> {
             </div>
             <p className="card-container-info">{text}</p>
         </div>
-    </Link>
+    </div>
   )
 }
 

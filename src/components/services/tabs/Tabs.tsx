@@ -3,9 +3,9 @@ import {Typography,Box,Tab,Tabs} from '@mui/material';
 import {Activity,Card} from '../../';
 import coding from "../../../assets/coding.png"
 import robot from "../../../assets/activity.png"
-import robotics from "../../../assets/robotics.svg"
-import codings from "../../../assets/coding.svg"
-import stem from "../../../assets/compatition.svg"
+import robotics from "../../../assets/vector1.svg"
+import codings from "../../../assets/vector3.svg"
+import stem from "../../../assets/vector4.svg"
 import stem2 from "../../../assets/stem.png"
 import "./tab.scss"
 interface TabPanelProps {

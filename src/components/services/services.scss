@@ -4,9 +4,12 @@
 
     position: relative;
     padding: 20px 0 0 0;
+    @include mobile {
+        padding: 0 0 0 0;
+    }
     &-bg{
         position: absolute;
-        background: url(../../assets/p8.jpg) center;
+        background: url(../../assets/robots.jpeg) center;
         background-size: cover;
         height: 70vh;
         top: 0;
@@ -34,12 +37,37 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        .header{
+            position: relative;
+            width: 100%;
+            // background: #000;
+            @media screen and (min-width:1000px) {
+                min-height: 140px;
+                height: 100%;
+                padding-top: 20px;
+                
+            }
+        }
         .title{
-            font-size: 8rem;
-          text-transform: uppercase;
+           font-size: 8rem;
+           
+            top: -20px;
+            width: 100%;
+            
+            @media screen and (min-width:1000px) {
+                top: -93px;
+                height: 20vh; 
+                position: absolute; 
+                font-size: 1266%;
+            }
+            @media screen and (min-width:958px) {
+                top: -50px;
+            }
+
+            text-transform: uppercase;
             -webkit-text-fill-color: transparent;
-            -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: $primary;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgba(5, 95, 197, .3);
         }
         .sub-title{
             font-size: 3rem;

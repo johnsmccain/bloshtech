@@ -9,7 +9,7 @@ import robotics from "../../assets/robotics.svg"
 import codings from "../../assets/coding.svg"
 import stem from "../../assets/compatition.svg"
 import stem2 from "../../assets/stem.png"
-import {} from "@mui/material"
+
 import { Link, Route, Routes } from 'react-router-dom';
 
 
@@ -18,9 +18,12 @@ const Services:FC  =()=> {
     <div className='services'>
        <div className="services-bg"></div>
        <div className="services-container">
-        <h2 className="title">
+         <div className="header">
+           <h2 className="title">
             blosh tech
         </h2>
+         </div>
+        
         <h4 className="sub-title">
           our services
         </h4>

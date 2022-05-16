@@ -30,6 +30,8 @@
                     .icon{
                         font-size: 20px !important;
                         margin-left: 5px !important;
+                        width: 40px ;
+                       
                     }
                 }
                 p,a{
@@ -37,16 +39,25 @@
                 }
             }
             h2{
-                font-size: 3rem;
+                font-size: 2.6rem;
                 letter-spacing: 2px;
                 margin-bottom: 20px;
+                text-align-last: left;
+                // background: #000;
                 .icon{
                     font-size: 2rem;
                     margin-left: 20px;
+                    width: 50px;
+                    @include tablet{
+                        width: 20px;
+                        margin-left: 0;
+                    }
+                    
                 }
             }
             p{
                 margin-bottom: 10px;
+                text-align-last: left;
                 
                 a{
                     &:hover{
