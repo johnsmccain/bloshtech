@@ -1,4 +1,4 @@
-import * as React from 'react';
+import  React from 'react';
 import {Typography,Box,Tab,Tabs} from '@mui/material';
 import {Activity,Card} from '../../';
 import coding from "../../../assets/coding.png"

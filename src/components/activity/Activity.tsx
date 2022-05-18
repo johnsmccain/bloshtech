@@ -16,7 +16,6 @@ const Activity: FC<IProps >=({img, svg, text}:IProps)=> {
         <img src={img} alt="card" className='activity-container-img' />
         <div className="info-container">
           <img src={svg} alt="background" className="bg" />
-     
           {text && <p className="lead">{text}</p>}
         </div>
       </div>

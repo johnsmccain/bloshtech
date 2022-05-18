@@ -3,14 +3,16 @@ import { Box, List, ListItem, ListItemButton, ListItemText, SwipeableDrawer } fr
 import logo from '../../assets/logo.svg'
 import './_navbar.scss';
 
-function Navbar() {
+const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     const handleToggle = ()=>{
         setToggle(!toggle)
     }
   return (
-   <nav className="navbar">
+      
+<div className="nav-wrapper">
 
+   <nav className="navbar">
         <img src={logo} alt="logo" className="logo" />
         <div className="links-container">
 
@@ -72,6 +74,7 @@ function Navbar() {
         </div>
         </div>
    </nav>
+</div>
   )
 }
 

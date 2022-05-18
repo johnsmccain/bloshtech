@@ -4,6 +4,11 @@
 
     background: rgb(0, 20, 29);
     color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     &-contaner{
         display: flex;
         align-items: center;
@@ -28,15 +33,31 @@
            }
            .lead{
                line-height: 24px;
-               letter-spacing: 2px;
+               letter-spacing: 1.5px;
+               color: #eee;
+            //    font-size: 16px ;
                @include mobile{
-                   font-size: 13px;
+                   font-size: 14px;
                    padding: 20px 0;
                }
            }
         }
-        &-photo{
+        .photo{
             flex: 2;
+            width: 50%;
+            margin: 20px;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                top: -20px;
+                left: 0;
+                right: 0;
+                bottom: 0; 
+                z-index: -1;
+                background: #000;
+
+            }
         }
     }
 }

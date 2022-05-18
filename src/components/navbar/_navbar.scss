@@ -1,12 +1,18 @@
 @import "../../styles/global";
 @import "../../styles/variable";
-
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+    position:sticky;
+    width: 100%;
+}
 .navbar{
    
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 2000px;
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     .logo{

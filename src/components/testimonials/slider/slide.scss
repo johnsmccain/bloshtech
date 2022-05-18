@@ -42,6 +42,7 @@
     color: #222;
     font-weight: 100;
     letter-spacing: 0.2px;
+    padding-top: 20px;
     margin-bottom: 4px;
     font-weight: 600;
     text-transform: uppercase;
@@ -53,15 +54,16 @@
     margin-top: 0;
     padding-top: 0;
     font-weight: 500;
-    color: $red;
+    color: $yellow;
     font-size: 14px;
   }
   
   .myCarousel p {
     font-weight: 100 !important;
-    line-height: 29px !important;
+    line-height: 23px !important;
     color: #222;
     font-size: 15px;
+    padding-top: 10px;
     font-family: sans-serif;
     max-height: 67px;
   }
@@ -76,7 +78,7 @@
   
   .myCarousel p:after {
     content: "”";
-    color: #aaa;
+    color: $yellow;
     font-size: 26px;
     font-family: monospace;
     font-weight: 100;
@@ -85,13 +87,13 @@
   
   .carousel .control-dots .dot {
     box-shadow: none !important;
-    background: $red !important;
+    background: $primary!important;
     outline: 0;
     display: none;
   }
   
   .carousel.carousel-slider .control-arrow {
-    background: $red!important;
+    background: $yellow!important;
     height: 50px !important;
     position: absolute;
     top: 35% !important;
@@ -126,7 +128,7 @@
     }
   
     .carousel .slide img {
-      width: 24% !important;
+      // width: 24% !important;
       border-radius: 50%;
     }
   }

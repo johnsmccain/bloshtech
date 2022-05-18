@@ -48,9 +48,12 @@ display: flex;
 align-items: center;
         font-size: 18px;
         svg{
-            background: $red;
+            background: $yellow;
             border-radius: 50%;
-            padding: 2px;
+            width: 30px;
+            height: 30px;
+            font-size:12px;
+            padding: 4%;
             color: white;
             margin-right: 10px;
             font-size: 18px;

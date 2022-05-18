@@ -2,6 +2,12 @@ import React, { useState } from 'react'
 import { BsDashLg }from "react-icons/bs"
 import vidrobot from '../../assets/robotvid.mp4'
 import pic from '../../assets/p8.jpg'
+import pic1 from '../../assets/pic1.png'
+import pic2 from '../../assets/pic2.png'
+import pic3 from '../../assets/pic3.png'
+import pic4 from '../../assets/pic4.png'
+import pic5 from '../../assets/pic5.png'
+
 import mediaIcon from "../../assets/foundation_play-video.svg"
 import { MotionContext,motion, AnimatePresence}from "framer-motion"
 import "./projects.scss"
@@ -12,25 +18,37 @@ function Projects() {
   const items = [
     {
       id:1,
-      name:"robot",
-      vid: vidrobot
+      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+      vid: vidrobot,
+      poster: pic1
     }
   ,
     {
       id:2,
-      name:"hello",vid: vidrobot
+      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+      vid: vidrobot,
+      poster: pic2
     }
   ,
     {
       id:3,
-      name:"hello",
-      vid: vidrobot
+      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+      vid: vidrobot,
+      poster: pic3
     }
  ,
     {
       id:4,
-      name:"hello",
-      vid: vidrobot
+      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+      vid: vidrobot,
+      poster: pic4
+    }
+ ,
+    {
+      id:5,
+      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+      vid: vidrobot,
+      poster: pic5
     }
 
   ]
@@ -48,10 +66,13 @@ function Projects() {
             items.map(item => (
               <div className={`video-container ${item.id == selectedVideo && "openMedia"}`} key={item.id} >
                 <div className="video-overlay">
+                  <div className="project-info">
                   <img src={mediaIcon} alt="player" className="video-button" onClick={()=> setSelectedVideo(item.id)}/>
-                <p>{item.name}</p>
+
+                  <p>{item.name}</p>
+                  </div>
                 </div>
-                <img src={pic} alt="play" className='poster'/>
+                <img src={item.poster} alt="play" className='poster'/>
                 {item.id === selectedVideo && <div className="iwrap"><div className="close" onClick={() =>setSelectedVideo(false)}>X</div>  <iframe src={item.vid} ></iframe></div>}
               </div>
             ))
