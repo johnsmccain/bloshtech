@@ -3,6 +3,10 @@
 .activity{
    
     padding: 20px;
+    &span{
+        display: block;
+        
+    }
     @include mobile{
         padding: 0;
     }

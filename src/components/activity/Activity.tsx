@@ -11,15 +11,15 @@ interface IProps {
 }
 const Activity = ({img, svg, text}:IProps)=> {
   return (
-    <div className='activity'>
-      <div className="activity-container">
+    <span className='activity'>
+      <span className="activity-container">
         <img src={img} alt="card" className='activity-container-img' />
-        <div className="info-container">
+        <span className="info-container">
           <img src={svg} alt="background" className="bg" />
-          {text && <p className="lead">{text}</p>}
-        </div>
-      </div>
-    </div>
+          {text && <span className="lead">{text}</span>}
+        </span>
+      </span>
+    </span>
   )
 }
 
