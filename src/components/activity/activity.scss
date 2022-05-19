@@ -11,10 +11,18 @@
         background: $primary;
         justify-content: center;
         align-items: center;
+        
+        @include mobile{
+            flex-direction: column-reverse;
+            width: 100%;
+        }
         &-img{
             flex: 1;
             width: 59%;
             height: 100%;
+            @include mobile{
+                width: 100%;
+            }
         }
         .info-container{
             flex: 1;
@@ -29,6 +37,9 @@
                 width: 70%;
                 height: 100%;
                 color: #555;
+                @include mobile{
+                    padding: 25px;
+                }
                 
             }
             .lead{
@@ -46,10 +57,33 @@
                 font-size:100%;
                 line-height: 20px;
                 // margin: 20px;
-                border-top: 2px solid $yellow;
-                border-bottom: 2px solid $yellow;
+                
                 @include mobile{
-                    line-height: 12px;
+                    line-height: 17px;
+                    font-size: 12px;
+                    color: #ddd;
+                    background: rgba(0, 0, 0, 0.05);
+                    border-radius: 5px;
+                }
+                &::before{
+                    content: "";
+                    top: 20px;
+                    width: 50%;
+                    position: absolute;
+                    background: $yellow;
+                    height: 2px;
+                    // border-top: 2px solid $yellow;
+                    // border-bottom: 2px solid $yellow;
+                }
+                &::after{
+                    content: "";
+                    bottom: 20px;
+                    width: 60%;
+                    position: absolute;
+                    background: $yellow;
+                    height: 2px;
+                    // border-top: 2px solid $yellow;
+                    // border-bottom: 2px solid $yellow;
                 }
             }
         }

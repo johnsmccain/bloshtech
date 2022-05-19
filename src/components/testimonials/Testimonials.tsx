@@ -17,7 +17,7 @@ function Testimonials() {
         <div className="testimonial-card-container">
           <Slider/>
         </div>
-        <a href="tel:" className="link"><BsArrowUpRight/>contact us</a>
+        <a href="#contact" className="link"><BsArrowUpRight/>contact us</a>
       </div>
     </div>
   )

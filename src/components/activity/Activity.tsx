@@ -5,11 +5,11 @@ import stem from "../../assets/stem.png"
 import robot from "../../assets/activity.png"
 import ROBOT from "../../assets/ROBOT.svg"
 interface IProps {
-  img: string  |any
-  svg: string |any
-  text: string
+  img?: string  |any
+  svg?: string |any
+  text?: string
 }
-const Activity: FC<IProps >=({img, svg, text}:IProps)=> {
+const Activity = ({img, svg, text}:IProps)=> {
   return (
     <div className='activity'>
       <div className="activity-container">

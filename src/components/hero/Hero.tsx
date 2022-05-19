@@ -13,7 +13,7 @@ function Hero() {
             <div className="hero-container-cta">
                 <div className="desc">want to see our work in action</div>
                 <img src={media} alt="media" className="media"/>
-                <button className='btn'>Contact us <HiOutlineArrowNarrowRight className='icon'/></button>
+                <a href='#contact' className='btn'>Contact us <HiOutlineArrowNarrowRight className='icon'/></a>
             </div>
         </div>
         <img src={mouse} alt="mouse" className="mouse" />

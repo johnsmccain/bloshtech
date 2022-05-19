@@ -52,7 +52,7 @@ function Projects() {
     }
 
   ]
-  console.log(selectedVideo)
+  // console.log(selectedVideo)
  
   return (
     <div className='project' id="work">

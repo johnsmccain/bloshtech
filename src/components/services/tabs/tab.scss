@@ -2,14 +2,20 @@
 @import '../../../styles/variable';
 
  .tab1{
-     display: none;
+    //  display: none;
+     position: absolute;
+     visibility: hidden !important;
+     visibility: hidden !important;
  }
 @include tablet{
    .tab1{
         display: block !important;
   }
     .tab2{
-        display: none !important;
+        position: absolute;
+        visibility: hidden !important;
+        visibility: hidden !important;
+        z-index: -100;
     }
    
 }.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{

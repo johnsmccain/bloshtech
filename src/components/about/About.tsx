@@ -2,7 +2,7 @@ import React from 'react'
 import { BsDashLg } from "react-icons/bs"
 import "./about.scss"
 import pupils from "../../assets/pupil.png"
-function About() {
+const About =()=> {
   return (
     <div className='about' id='about'>
         <div className="about-contaner">
