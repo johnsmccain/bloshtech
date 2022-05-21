@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import './form.scss';
 
@@ -7,8 +8,21 @@ const handleSubmit =(e:any)=>{
 }
 const Form = () => {
   return (
-    <div className="container" id='contact' onSubmit={handleSubmit}>
-        <form className='form'>
+    <div className="wrapper" id='contact' >
+      <div className="container">
+        <div className="info">
+          <h2 className="info-title">
+            <span>“ Be Inspired by
+            what you see” <br />  </span> Let’s Talk about 
+            your project
+          </h2>
+          <p className="info-text">Contact us for consulting for you products.</p>
+          <div className="info-icons">
+            <FaFacebook  className='info-icons-icon'/>
+            <FaInstagram className='info-icons-icon'/>
+          </div>
+        </div>
+        <form className='form'onSubmit={handleSubmit}>
             <div className="form-wrapper">
             <label htmlFor="name" className='form-wrapper-label'>Name</label>
             <input type="text" required id="name" name="name" className='form-wrapper-control' placeholder="Your name.."/>
@@ -40,6 +54,7 @@ const Form = () => {
             </div>
 
         </form>
+      </div>
     </div>
   )
 }

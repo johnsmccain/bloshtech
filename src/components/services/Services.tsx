@@ -15,7 +15,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 
 const Services:FC  =()=> {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
        <div className="services-bg"></div>
        <div className="services-container">
          <div className="header">

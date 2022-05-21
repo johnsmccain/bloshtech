@@ -9,7 +9,7 @@ function Hero() {
     <div className="hero" id='home'>
         <div className="hero-container">
             <h1 className="title"><span>blosh</span> tech</h1>
-            <h3 className="sub-title">preparing the young for the future</h3>
+            <h3 className="sub-title">preparing the young for high tech future</h3>
             <div className="hero-container-cta">
                 <div className="desc">want to see our work in action</div>
                 <img src={media} alt="media" className="media"/>

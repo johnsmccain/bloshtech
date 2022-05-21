@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.scss';
-import { Navbar, Hero, Services,Footer, Project,Testimonials, About, Form } from '../../components'
+import { Navbar, Hero, Services,Footer, Project,Testimonials, About, Form, Blog } from '../../components'
 import { Container } from "@mui/material"
 const Home = () => {
   return ( 
@@ -18,6 +18,7 @@ const Home = () => {
           <Project/>
           <Testimonials /> 
           <About/>
+          <Blog/>
           <Form/>
           <Footer/>
        

@@ -31,12 +31,12 @@
         }
         .sub-title{
             color: white;
-            font-size: 2.12rem;
+            font-size: 1.79rem;
             font-weight: normal;
             font-family: $mainFont;
             text-transform: uppercase;
             @include mobile{
-                font-size: 1.9rem;
+                font-size: 1.5rem;
             }
            
         }
@@ -45,17 +45,21 @@
             display: flex;
             align-items: center;
             flex-direction: column;
+           
             margin-top: 40px;
 
             .desc{
                 color: white;
-                font-size: 1.5rem;
+                font-size: 1.15rem;
                 padding: 10px;
                 font-family: $mainFont;
                 border: 0.78px solid $yellow;
                 font-weight: 400;
                 line-height: 32px;
                 text-transform: uppercase;
+                @include mobile{
+                    font-size: 1.2rem;
+                }
                 @include tablet{
                     padding: 5px 10px;
                     letter-spacing: 2px;
@@ -72,14 +76,22 @@
                 display: flex;
                 align-items: center;
                 // width: 150px;
+                width: 220px;
+                height: 48px;
                 justify-content: center;
                 padding: 7px 10px;
                 border: none;
                 border-radius: 5px;
+                font-size: 1rem;
                 cursor: pointer;
-
+                
                 .icon{
                     margin-left: 10px;
+                }
+                @include mobile{
+                    width: 150px;
+                    height: 50px;
+                    padding: 5px 7px;
                 }
                 @include tablet{
                     font-size: 1.7em;
