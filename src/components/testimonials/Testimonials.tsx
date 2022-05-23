@@ -12,7 +12,7 @@ function Testimonials() {
 
           <h2 className='title'><BsDash/>Testimonials</h2>
 
-          <p className="text-info">Thing we have made</p>
+          <p className="text-info">What our client/student say</p>
         </div>
         <div className="testimonial-card-container">
           <Slider/>
