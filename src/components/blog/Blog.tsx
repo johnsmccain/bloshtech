@@ -9,7 +9,7 @@ function Blog() {
         <div className="blog-container">
             <div className="blog-container-header">
                 <h2 className="blog-container-header-title"><span></span> Blog post</h2>
-                <p className="blog-container-header-text">Thing we have build</p>
+                <p className="blog-container-header-text">Things we have build</p>
             </div>
             <div className="blog-container-cards">
                 {[pic2,pic,pic1].map((blog, index)=> (

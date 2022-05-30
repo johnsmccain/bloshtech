@@ -53,7 +53,8 @@
            
             top: -20px;
             width: 100%;
-            
+            text-transform: lowercase !important;
+            letter-spacing: 12px;
             @media screen and (min-width:1000px) {
                 top: -93px;
                 height: 20vh; 
