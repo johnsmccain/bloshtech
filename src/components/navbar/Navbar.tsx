@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Box, List, ListItem, ListItemButton, ListItemText, SwipeableDrawer } from "@mui/material"
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.png'
 import './_navbar.scss';
 
 const Navbar = () => {

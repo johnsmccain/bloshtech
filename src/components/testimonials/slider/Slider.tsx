@@ -21,7 +21,7 @@ let data = [
   },
   {
     name: 'LEO ACHIEVER OLAWALE',
-    profesion: "Head Teacher A.I.S.S.L, Abuja",
+    profesion: "Head Teacher A.I.S.S, Abuja",
     profile: rb2,
     desc: "It has been a pleasure working with BLOSH TECH EDUCATIONAL HUB LTD and I can only rave over the high standards that you have maintained relative to our pupils learning coding and robotics in Australian International Standard School Lokogoma Abuja. I strongly believe and have confidence in the services you have rendered so far."
   },

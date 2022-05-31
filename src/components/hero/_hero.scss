@@ -34,9 +34,10 @@
             font-size: 1.79rem;
             font-weight: normal;
             font-family: $mainFont;
-            text-transform: uppercase;
+            text-transform: lowercase;
             @include mobile{
-                font-size: 1.5rem;
+                font-size: 2rem;
+                font-weight: 500 !important;
             }
            
         }
