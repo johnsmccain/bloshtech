@@ -18,10 +18,10 @@ const handleSubmit =(e:any)=>{
         <div className="info">
           <h2 className="info-title">
             <span>“ Be Inspired by
-            what you see” <br />  </span> Let’s Talk about 
+            what you see” <br />  </span> Let’s talk about 
             your project
           </h2>
-          <p className="info-text">Contact us for consulting for you products.</p>
+          {/* <p className="info-text">Contact us for consulting for you products.</p> */}
           <div className="info-icons">
             <FaFacebook  className='info-icons-icon'/>
             <FaInstagram className='info-icons-icon'/>

@@ -10,7 +10,7 @@ function Testimonials() {
     <div className='testimonial'>
       <div className="testimonial-container">
         <div className="title-info">
-          <BigText title="Testimonials" text='What our client/student say'/>
+          <BigText title="Testimonials" text='Clients/Students are saying'/>
         
         </div>
         <div className="testimonial-card-container">

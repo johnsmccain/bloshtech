@@ -59,9 +59,9 @@ export default function BasicTabs() {
 
       <Box sx={{ borderBottom: 1, borderColor: 'divider' ,fontSize: 50, color: "white"}} className="tab1" >
         <Tabs value={value} onChange={handleChange} centered >
-          <Tab className='tab_text'  label="Robotitcs" {...a11yProps(0)} />
-          <Tab  className='tab_text' label="Coding" {...a11yProps(1)} />
-          <Tab className='tab_text'  label="COMPETITION" {...a11yProps(2)} />
+          <Tab className='tab_text'  label={<span className='tab_font'>Robotitcs</span>} {...a11yProps(0)} />
+          <Tab  className='tab_text' label={<span className='tab_font'>Coding</span>} {...a11yProps(1)} />
+          <Tab className='tab_text'  label={<span className='tab_font'>Competition</span>}{...a11yProps(2)} />
         </Tabs>
       </Box>
     {/* </div> */}
@@ -79,7 +79,7 @@ export default function BasicTabs() {
 
 
       <TabPanel value={value} index={0}>
-        <Activity  img={robot} svg={robotics} text="Our robotic Team building programme is designed to build a stronger unit of employees, breaking away from the monotony of work, Relieve stress, have fun while at work, encourage creativity and collaboration, enhancing communication, Improve morale, increase productivity, trust etc. The program is designed for families, corporate, social and religious settings.
+        <Activity  img={robot} svg={robotics} text="Our robotic Team building programme is designed to build a stronger unit of employees, breaking away from the monotony of work, relieve stress, have fun while at work, encourage creativity and collaboration, enhancing communication, Improve morale, increase productivity, trust. The program is designed for families, corporate, social and religious settings.
 
 " />
       </TabPanel>

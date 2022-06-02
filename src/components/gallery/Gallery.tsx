@@ -50,7 +50,7 @@ const Gallery = () => {
 
         <div className="gallery-container">
             <div className="gallery-container-header">
-                <BigText title='Gallery' text='Pictures that holds memory' color='black'/>
+                <BigText title='Gallery' text='Pictures that hold memories' color='black'/>
             </div>
             <div className="gallery-container-cards">
                 {images.slice(1,4).map((image, id)=> (
