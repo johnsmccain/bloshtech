@@ -5,13 +5,14 @@ import Slider from "react-slick";
 import './gallery.scss'
 import pix1 from '../../assets/Tofunmi.jpeg'
 import pix2 from '../../assets/Tofunmi.jpeg'
-// import pix2 from '../../assets/p9.jpg'
+import g1 from '../../assets/gallery1.jpeg'
 import pix3 from '../../assets/Tofunmi.jpeg'
 import pix4 from '../../assets/Tofunmi.jpeg'
 import pix5 from '../../assets/Tofunmi.jpeg'
+import BigText from '../bigTex/BigText';
 // import pix5 from '../../assets/pic4.png'
 
-const images = [pix1, pix2, pix3, pix4, pix5]
+const images = [pix1, g1, pix2, pix3, pix4, pix5]
 const Gallery = () => {
     const [first, setfirst] = useState(3)
     // const NextArrow = ({ onClick}:any) => {
@@ -49,8 +50,7 @@ const Gallery = () => {
 
         <div className="gallery-container">
             <div className="gallery-container-header">
-                <h2 className="gallery-container-header-title"><span></span> Gallery</h2>
-                <p className="gallery-container-header-text">Pictures that holds memory</p>
+                <BigText title='Gallery' text='Pictures that holds memory' color='black'/>
             </div>
             <div className="gallery-container-cards">
                 {images.slice(1,4).map((image, id)=> (

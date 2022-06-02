@@ -49,12 +49,12 @@
             }
         }
         .title{
-           font-size: 8rem;
-           
+        //    font-size: 8rem;
+        //    background: #000;
             top: -20px;
             width: 100%;
             text-transform: lowercase !important;
-            letter-spacing: 12px;
+            letter-spacing: 30px;
             @media screen and (min-width:1000px) {
                 top: -93px;
                 height: 20vh; 
@@ -64,15 +64,22 @@
             @media screen and (min-width:958px) {
                 top: -50px;
             }
-
+            @include tablet{
+                font-size: 60px;
+                letter-spacing: 20px;
+            }
+            @include mobile{
+                font-size: 44px;
+                letter-spacing: 15px;
+            }
             text-transform: uppercase;
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: rgba(5, 95, 197, .3);
+            -webkit-text-stroke-color: rgba(5, 95, 197, .21);
         }
-        .sub-title{
-            font-size: 3rem;
-        }
+        // .sub-title{
+        //     font-size: 3rem;
+        // }
         .cards{
             margin: 30px;
             display: flex;

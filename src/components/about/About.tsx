@@ -2,6 +2,7 @@ import React from 'react'
 import { BsDashLg } from "react-icons/bs"
 import "./about.scss"
 import pupils from "../../assets/pupil.png"
+import BigText from '../bigTex/BigText'
 const About =()=> {
   return (
     <div className='about' id='about'>
@@ -9,7 +10,8 @@ const About =()=> {
             <div className="about-contaner-info">
                 <div className="about-contaner-info-heading">
 
-                    <h2><BsDashLg/>About us</h2>
+                    {/* <h2><BsDashLg/>About us</h2> */}
+                    <BigText title="About us"/>
                     {/* <p className="sub-title">Thing we have made</p> */}
                 </div>
                 <p className="lead">

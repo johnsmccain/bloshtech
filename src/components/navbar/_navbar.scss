@@ -98,15 +98,22 @@
                 }
             }        
         @media screen and (min-width:900px) {
-            .links-container{
-                width: 40%;
-                justify-content: space-between;
-            }
+            // .links-container{
+            //     width: 40%;
+            //     justify-content: space-between;
+            // }
             .hamburger{
                 display: none;
             }
         }
+        @include tablet{
+            .hamburger{
+                display: flex;
+                float: right;
+                // background: red;
+            }
 
+        }
         position: relative;
         .mobile-overlay{
             color: #fff;

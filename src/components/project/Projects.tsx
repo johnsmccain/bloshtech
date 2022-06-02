@@ -11,6 +11,7 @@ import pic5 from '../../assets/pic5.png'
 import mediaIcon from "../../assets/foundation_play-video.svg"
 import { MotionContext,motion, AnimatePresence}from "framer-motion"
 import "./projects.scss"
+import BigText from '../bigTex/BigText'
 // import { Item } from 'framer-motion/types/components/Reorder/Item'
 function Projects() {
   const [selectedId, setSelectedId] = useState(null);
@@ -60,7 +61,8 @@ function Projects() {
         <div className="bg-overlay">
             
         </div>
-        <h2 className="title"><BsDashLg/> our projects</h2>
+        <BigText title="Our projects" color="white"/>
+        
         <div className="project-container">
           {
             items.map(item => (

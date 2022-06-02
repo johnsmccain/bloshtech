@@ -3,9 +3,10 @@ import './home.scss';
 import { Navbar, Hero, Services,Footer, Project,Testimonials, About, Form, Blog, Gallery } from '../../components'
 import { Container } from "@mui/material"
 const Home = () => {
+
   return ( 
     
-      <div className='home'>
+      <div className='home' onScroll={x=> console.log(x)}>
     
         <header id='hero'>
           <div className='overlay2'></div>

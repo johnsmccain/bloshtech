@@ -1,0 +1,34 @@
+@import '../../styles/variable';
+.red{
+    color: red;
+    padding: 20px;
+}
+.black{
+    color: black;
+    padding: 20px;
+}
+.white{
+    color: white;
+    padding: 20px;
+}
+
+.big_text-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+        display: inline-block;
+        width: 20px;
+        height: 3.3px;
+        background: $yellow;
+        margin-right: 5px;
+    }
+}
+.big_text-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: $primary;
+}

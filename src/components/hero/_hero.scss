@@ -32,9 +32,13 @@
         .sub-title{
             color: white;
             font-size: 1.79rem;
-            font-weight: normal;
+            font-weight: lighter;
             font-family: $mainFont;
             text-transform: lowercase;
+            font-style: italic;
+            &::first-letter{
+                text-transform: uppercase;
+            }
             @include mobile{
                 font-size: 2rem;
                 font-weight: 500 !important;
