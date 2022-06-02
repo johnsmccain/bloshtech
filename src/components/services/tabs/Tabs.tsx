@@ -59,8 +59,8 @@ export default function BasicTabs() {
 
       <Box sx={{ borderBottom: 1, borderColor: 'divider' ,fontSize: 50, color: "white"}} className="tab1" >
         <Tabs value={value} onChange={handleChange} centered >
-          <Tab className='tab_text'  label={<span className='tab_font' style={{fontSize: '1.3rem'}}>Robotitcs</span>} {...a11yProps(0)} />
-          <Tab  className='tab_text' label={<span className='tab_font'>Coding</span>} {...a11yProps(1)} />
+          <Tab className='tab_text'  label={<p className='tab_font' style={{fontSize: '1.3rem'}}>Robotitcs</p>} {...a11yProps(0)} />
+          <Tab  className='tab_text' label={<div className='tab_font'>Coding</div>} {...a11yProps(1)} />
           <Tab className='tab_text'  label={<span className='tab_font'>Competition</span>}{...a11yProps(2)} />
         </Tabs>
       </Box>
