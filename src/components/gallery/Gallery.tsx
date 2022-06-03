@@ -11,7 +11,8 @@ import pix4 from '../../assets/Tofunmi.jpeg'
 import pix5 from '../../assets/Tofunmi.jpeg'
 import BigText from '../bigTex/BigText';
 import { Carousel } from 'react-responsive-carousel';
-import {CarouselWrapper} from 'react-pretty-carousel'
+import { CarouselWrapper } from './components/CarouselWrapper';
+// import {CarouselWrapper} from 'react-pretty-carousel'
 // import pix5 from '../../assets/pic4.png'
 
 const images = [pix1, g1, pix2, pix3, pix4, pix5]
