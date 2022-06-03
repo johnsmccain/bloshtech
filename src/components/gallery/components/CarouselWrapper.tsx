@@ -2,7 +2,7 @@ import React, {useEffect, useState, useRef} from "react";
 import './index.scss';
 
 import { CarouselItem } from "./CarouselItem";
-// import { CarouselDots } from "./CarouselDots";
+import { CarouselDots } from "./CarouselDots";
 
 let prev:any, next:any, moveTo:any, switchTo:any, presentIndex:any;
 
@@ -174,7 +174,7 @@ const CarouselWrapper = ({children, items, mode, showControls, loop}:any) => {
                 ))}
             </div>
         </div>
-        {/* { showControls ? (
+        { showControls ? (
             <div className="rpc-content-controls">
                 <div className="rpc-content-control-dots">
                     {elements.map( (item, index) => (
@@ -187,7 +187,7 @@ const CarouselWrapper = ({children, items, mode, showControls, loop}:any) => {
                     <button onClick={next} className="rpc-next-btn">Next</button>
                 </div>
             </div>
-        ) : ""} */}
+        ) : ""}
     </div>);
 }
 
