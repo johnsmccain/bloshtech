@@ -2,8 +2,10 @@ import React, {useEffect, useRef} from 'react';
 
 import {presentIndex} from "./CarouselWrapper";
 
-function CarouselDots({index, onClick, items, totalItems}) {
-    const controlDot = useRef(), interval = useRef();
+
+
+function CarouselDots({index, onClick, items, totalItems}:any) {
+    const controlDot:any = useRef(), interval:any = useRef();
     
     useEffect(() => { 
         clearInterval(interval.current)
