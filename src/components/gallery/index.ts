@@ -42,7 +42,7 @@ import b8 from '../../images/b8.jpg'
 import b9 from '../../images/b9.jpg'
 import b10 from '../../images/b10.jpg'
 import b11 from '../../images/b11.jpg'
-// import b12 from '../../images/b12.jpg'
+import b12 from '../../images/b12.jpg'
 // import g32 from '../../images/g.png'
 // import g33 from '../../images/g.png'
 export const gallery = [
@@ -90,6 +90,6 @@ export const gallery = [
     b9,
     b10,
     b11,
-    // b12
+    b12
     
 ]
