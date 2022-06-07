@@ -10,7 +10,7 @@ import pic3 from '../../assets/pic3.png'
 import pic4 from '../../assets/pic4.png'
 import pic5 from '../../assets/pic5.png'
 import pic from '../../assets/p8.jpg'
-import g11 from '../../images/g13.jpg'
+// import g11 from '../../images/g12.jpg'
 import g26 from '../../images/g27.png'
 import g1 from '../../images/gallery2.png'
 import g4 from '../../images/g5.jpg'
@@ -32,7 +32,7 @@ export const videos =[
         id:3,
         vid:coding_class,
         name:"coding class",
-        poster:g11
+        poster:pic4
     },
     {
         id:4,
