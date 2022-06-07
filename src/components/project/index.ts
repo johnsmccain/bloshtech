@@ -4,7 +4,7 @@ import coding_class from '../../videos/coding_class.mp4'
 import Dancer_robot from '../../videos/Dancer_robot.mp4'
 import OBJECT_AVOIDANCE from '../../videos/OBJECT_AVOIDANCE.mp4'
 
-import g11 from '../../images/g12.jpg'
+import g11 from '../../images/g12.png'
 import g26 from '../../images/g27.png'
 import g1 from '../../images/gallery2.png'
 import g4 from '../../images/g5.jpg'
