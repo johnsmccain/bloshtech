@@ -7,7 +7,7 @@ import OBJECT_AVOIDANCE from '../../videos/OBJECT_AVOIDANCE.mp4'
 import g11 from '../../images/g12.png'
 import g26 from '../../images/g27.png'
 import g1 from '../../images/gallery2.png'
-import g4 from '../../images/g5.jpg'
+import g4 from '../../images/g5.png'
 import b8 from '../../images/b8.jpg'
 export const videos =[
     {
