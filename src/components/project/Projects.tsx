@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BsDashLg }from "react-icons/bs"
 import vidrobot from '../../assets/robotvid.mp4'
 
-import { videos } from '.'
+import { videos } from './index'
 
 import mediaIcon from "../../assets/foundation_play-video.svg"
 import { MotionContext,motion, AnimatePresence}from "framer-motion"
