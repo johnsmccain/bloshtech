@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
 import { BsDashLg }from "react-icons/bs"
 import vidrobot from '../../assets/robotvid.mp4'
-import pic from '../../assets/p8.jpg'
-import pic1 from '../../assets/pic1.png'
-import pic2 from '../../assets/pic2.png'
-import pic3 from '../../assets/pic3.png'
-import pic4 from '../../assets/pic4.png'
-import pic5 from '../../assets/pic5.png'
+
+import { videos } from '.'
 
 import mediaIcon from "../../assets/foundation_play-video.svg"
 import { MotionContext,motion, AnimatePresence}from "framer-motion"
@@ -16,44 +12,44 @@ import BigText from '../bigTex/BigText'
 function Projects() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedVideo, setSelectedVideo]:any = useState(null)
-  const items = [
-    {
-      id:1,
-      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
-      vid: vidrobot,
-      poster: pic1
-    }
-  ,
-    {
-      id:2,
-      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
-      vid: vidrobot,
-      poster: pic2
-    }
-  ,
-    {
-      id:3,
-      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
-      vid: vidrobot,
-      poster: pic3
-    }
- ,
-    {
-      id:4,
-      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
-      vid: vidrobot,
-      poster: pic4
-    }
- ,
-    {
-      id:5,
-      name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
-      vid: vidrobot,
-      poster: pic5
-    }
+//   const items = [
+//     {
+//       id:1,
+//       name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+//       vid: vidrobot,
+//       poster: pic1
+//     }
+//   ,
+//     {
+//       id:2,
+//       name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+//       vid: vidrobot,
+//       poster: pic2
+//     }
+//   ,
+//     {
+//       id:3,
+//       name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+//       vid: vidrobot,
+//       poster: pic3
+//     }
+//  ,
+//     {
+//       id:4,
+//       name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+//       vid: vidrobot,
+//       poster: pic4
+//     }
+//  ,
+//     {
+//       id:5,
+//       name:"An agile approach to build scalable CUSTOM SOFTWARE, integrating the LASTEST TECHNOLOGIES.",
+//       vid: vidrobot,
+//       poster: pic5
+//     }
 
-  ]
-  // console.log(selectedVideo)
+//   ]
+//   // console.log(selectedVideo)
  
   return (
     <div className='project' id="work">
@@ -65,7 +61,7 @@ function Projects() {
         
         <div className="project-container">
           {
-            items.map(item => (
+            videos.map(item => (
               <div className={`video-container ${item.id == selectedVideo && "openMedia"}`} key={item.id} >
                 <div className="video-overlay">
                   <div className="project-info">

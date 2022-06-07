@@ -14,8 +14,8 @@ import { Carousel } from 'react-responsive-carousel';
 import { CarouselWrapper } from './components/CarouselWrapper';
 // import {CarouselWrapper} from 'react-pretty-carousel'
 // import pix5 from '../../assets/pic4.png'
-
-const images = [pix1, g1, pix2, pix3, pix4, pix5]
+import {gallery} from './index'
+// const images = [pix1, g1, pix2, pix3, pix4, pix5]
 const Gallery = () => {
  
   return (
@@ -29,7 +29,7 @@ const Gallery = () => {
           
             <CarouselWrapper mode='gallery' items={3}>
 
-                {images.map((image, id)=> (
+                {gallery.map((image, id)=> (
                     <div className="image_container" key={id}> 
                         <img src={image} alt="" />
                     </div>

@@ -22,7 +22,7 @@ const Services:FC  =()=> {
          <div className="header">
            <h2 className="title">
             blosh tech
-        </h2>
+            </h2>
          </div>
         <BigText title="Our services"/>
         {/* <h4 className="sub-title">
