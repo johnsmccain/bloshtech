@@ -116,8 +116,12 @@
         resize: vertical ;
         border: none;
         outline: none;
+        &::placeholder{
+          color: #ccc;
+        }
+
         &:focus{
-          border: 1px solid $yellow; 
+          border: 1px solid $primary; 
         }
         @include mobile{
           font-size: 15px;
