@@ -2,6 +2,7 @@ import React from 'react'
 import './home.scss';
 import { Navbar, Hero, Services,Footer, Project,Testimonials, About, Form, Blog, Gallery } from '../../components'
 import { Container } from "@mui/material"
+import Partner from '../../components/partner/Partner';
 const Home = () => {
 
   return ( 
@@ -16,6 +17,7 @@ const Home = () => {
       
 
           <Services/>
+          <Partner/>
           <Project/>
           <Testimonials /> 
           <About/>
