@@ -2,12 +2,10 @@ import React from 'react'
 import BigText from '../bigTex/BigText'
 import './partner.scss'
 import conintrade from '../../assets/conintrade.jpeg'
+import { Typography } from '@mui/material'
 
 const conpanies = [
-  {
-    img: conintrade,
-    title: "Conintrade"
-  },
+
   {
     img: conintrade,
     title: "Conintrade"
@@ -26,9 +24,11 @@ const conpanies = [
   },
 ]  
 
-const PartnerList = conpanies.map((comany, index) => (
+const PartnerList = conpanies.map((company, index) => (
   <div className="partner-wrapper-logo" key={index}>
-      <img src={comany.img}alt="conintrade" className="partner-img" />
+      <img src={company.img}alt="conintrade" className="partner-img" />
+      {/* <Typography variant='h5' >{company.title}</Typography> */}
+      <h3 className='partner-title'>{company.title}</h3>
     </div>
 ))
 

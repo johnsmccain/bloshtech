@@ -11,11 +11,21 @@
         padding: 20px;
         align-items: center;
         justify-content: center;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
         &-logo{
             // margin: 30px;
+            margin: 20px;
+            @include mobile{
+                margin: 5px;
+            }
+
             .partner-img{
-                // width: 150px;
+                width: 150px;
+            }
+            .partner-title{
+                @include mobile{
+                    font-size: 16px;
+                }
             }
         }
     }
