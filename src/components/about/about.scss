@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    &-contaner{
+    &-container{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -32,8 +32,12 @@
                padding: 20px ;
                width: 90%;
            }
-        //    &-heading{
-        //        padding: 20px 0;
+           &-heading{
+               padding: 20px 0;
+               @include mobile{
+                   padding: 0;
+               }
+            //    margin: 40px;
         //        h2{
         //            font-size: 2rem;
         //            svg{
@@ -43,7 +47,7 @@
         //        .sub-title{
         //            color: $green;
         //        }
-        //    }
+           }
            .lead{
                line-height: 24px;
                letter-spacing: 1px;
@@ -51,7 +55,7 @@
                text-align: left;
             //    font-size: 16px ;
                @include mobile{
-                   font-size: 14px;
+                   font-size: 16px;
                    padding: 20px 0;
                }
                @include tablet{

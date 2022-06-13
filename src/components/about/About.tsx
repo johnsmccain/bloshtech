@@ -6,9 +6,9 @@ import BigText from '../bigTex/BigText'
 const About =()=> {
   return (
     <div className='about' id='about'>
-        <div className="about-contaner">
-            <div className="about-contaner-info">
-                <div className="about-contaner-info-heading">
+        <div className="about-container">
+            <div className="about-container-info">
+                <div className="about-container-info-heading">
 
                     {/* <h2><BsDashLg/>About us</h2> */}
                     <BigText title="About us"/>
