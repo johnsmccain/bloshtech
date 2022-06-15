@@ -1,0 +1,138 @@
+.container{
+    // max-width: 1060px;
+    width: 100%;
+    margin:auto;
+}
+// hr{
+//     width:70px;
+//     background-color: black;
+//     height: 10px;
+// }
+.solution{
+    display:flex;
+    flex-direction: row;
+    // position:absolute;
+    right:-300px;
+    padding-top: 30px;
+}
+.heading{
+    font-size: 30px;
+    display: flex;
+    flex-direction:row;
+    column-gap: 2.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.solution-content{
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 50px;
+    padding-top: 40px;
+}
+.solution-text span{
+    color: hsl(240, 55%, 48%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    // position:absolute;
+    top:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .sub-title{
+//     font-size: 3rem;
+// }
+
+// // .container{
+// //     max-width: 1060px;
+// //     width: 100%;
+// //     margin:auto;
+// // }
+
+
+// .solution-content{
+//     display:grid;
+//     grid-template-columns: repeat(2, auto);
+//     row-gap: 70px;
+//     padding-top: 40px;
+// }
+// .solution-text span{
+//     color: hsl(240, 55%, 48%);
+//     font-size: 20px;
+//     font-weight: 600;
+//     position:relative;
+//     top:12px;
+// }
+
+// // .rectangle{
+// //     height:250px;
+// //     width:150px;
+// //     border-color: #ffd700;
+// //     background-color:transparent;
+// //     border-style: solid;
+// //     border-radius: 3px;
+// //     position:relative;
+// //     transform:translate(540%, -15%);
+// // }
+// // .rectangle1{
+// //     height:250px;
+// //     width:150px;
+// //     border-color: #ffd700;
+// //     background-color:transparent;
+// //     border-style: solid;
+// //     border-radius: 3px;
+// //     position:relative;
+// //     bottom:90px;
+// //     left:80px;
+// // }
