@@ -4,15 +4,14 @@ import { BsDash } from "react-icons/bs";
 // import {Slide} from "@mui/material"
 import {BsArrowUpRight} from "react-icons/bs"
 import Slider from "./slider/Slider"
+import BigText from '../bigTex/BigText';
 function Testimonials() {
   return (
     <div className='testimonial'>
       <div className="testimonial-container">
         <div className="title-info">
-
-          <h2 className='title'><BsDash/>Testimonials</h2>
-
-          <p className="text-info">What our client/student say</p>
+          <BigText title="Testimonials" text='Clients/Students are saying'/>
+        
         </div>
         <div className="testimonial-card-container">
           <Slider/>

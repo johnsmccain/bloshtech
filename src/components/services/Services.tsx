@@ -11,6 +11,7 @@ import stem from "../../assets/compatition.svg"
 import stem2 from "../../assets/stem.png"
 
 import { Link, Route, Routes } from 'react-router-dom';
+import BigText from '../bigTex/BigText';
 
 
 const Services:FC  =()=> {
@@ -21,12 +22,12 @@ const Services:FC  =()=> {
          <div className="header">
            <h2 className="title">
             blosh tech
-        </h2>
+            </h2>
          </div>
-        
-        <h4 className="sub-title">
+        <BigText title="Our services"/>
+        {/* <h4 className="sub-title">
           our services
-        </h4>
+        </h4> */}
         
         <div className="activities">
         

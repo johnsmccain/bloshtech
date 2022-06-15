@@ -46,11 +46,15 @@
                    height: 100%;
                 }
             }
+            @include tablet{
+                flex-wrap: wrap;
+            }
             &-card{
                 width: 100%;
                 width: 383px;
                 height: 467px;
                 margin: 30px;
+                overflow: hidden;
                 &:nth-child(2){
                     width: 443px;
                     height: 703px;
@@ -66,6 +70,12 @@
                 @include mobile{
                     width: 100%;
                     height: 100%;
+                    margin:20px 0;
+                }
+                &:hover{
+                    border-radius: 5px;
+                    transform: scale(1.1);
+                    cursor: pointer;
                 }
             }
         }

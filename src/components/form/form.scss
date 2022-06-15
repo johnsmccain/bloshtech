@@ -11,10 +11,17 @@
   padding: 20px;
   font-family: $mainFont;
   display: flex;
+  // overflow: hidden;
+  box-sizing: border-box;
   @include mobile{
     padding: 10px;
     flex-direction: column;
-  }.info{
+  }
+  @include tablet{
+    padding: 10px;
+    flex-direction: column;
+  }
+  .info{
     // flex: 1;
     margin: 70px 30px 0 0;
    text-align: left;
@@ -27,6 +34,7 @@
     &-title{
       font-size: 55px;
       font-weight: 700;
+      margin-bottom: 30px;
       @include mobile{
         font-size: 39px;
         font-weight: 500;
@@ -75,6 +83,11 @@
       margin: 20px 0;
       width: 100%;
     }
+    @include tablet{
+   
+      margin: 20px 0;
+      width: 100%;
+    }
     &-wrapper-label{
       text-align: left;
       // background: #000;
@@ -103,8 +116,12 @@
         resize: vertical ;
         border: none;
         outline: none;
+        &::placeholder{
+          color: #ccc;
+        }
+
         &:focus{
-          border: 1px solid $yellow; 
+          border: 1px solid $primary; 
         }
         @include mobile{
           font-size: 15px;

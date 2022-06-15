@@ -27,32 +27,21 @@
                 color: $primary;
             }
         }
-        &-cards{
-            // background: #000;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            box-sizing: border-box;
-            margin: 30px 0;
+    
             .image_container{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background: #000;
-                width: 30%;
-                &:nth-child(2){
-                    width: 32%;
-                    :hover{
-                        width: 33%;
-
-                    }
-                    position: relative;
-                    img{
-                        border-radius: 5px;
-                        position: absolute;
-                        
-                    }
+                // background: #000;
+                width: 100%;
+               img{
+                   width: 100%;
+                   height: 100%;
+               }
+                &:hover{
+                    transform: scale(1.05);
                 }
+                
             }
             @include mobile{
                 flex-direction: column;
@@ -67,7 +56,11 @@
                    height: 100%;
                 }
             }
-            
-        }
+    
     }
 }
+
+img{
+    border-radius: 5px;
+}
+

@@ -1,0 +1,32 @@
+@import '../../styles/mixin';
+
+.partner{
+    margin-bottom: 30px;
+    @include mobile{
+        margin-top: 30px;
+    }
+
+    &-wrapper{
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        &-logo{
+            // margin: 30px;
+            margin: 20px;
+            @include mobile{
+                margin: 5px;
+            }
+
+            .partner-img{
+                width: 150px;
+            }
+            .partner-title{
+                @include mobile{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

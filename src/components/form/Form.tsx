@@ -18,10 +18,10 @@ const handleSubmit =(e:any)=>{
         <div className="info">
           <h2 className="info-title">
             <span>“ Be Inspired by
-            what you see” <br />  </span> Let’s Talk about 
+            what you see” <br />  </span> Let’s talk about 
             your project
           </h2>
-          <p className="info-text">Contact us for consulting for you products.</p>
+          {/* <p className="info-text">Contact us for consulting for you products.</p> */}
           <div className="info-icons">
             <FaFacebook  className='info-icons-icon'/>
             <FaInstagram className='info-icons-icon'/>
@@ -30,13 +30,13 @@ const handleSubmit =(e:any)=>{
         <form className='form'onSubmit={handleSubmit}>
             <div className="form-wrapper">
             <label htmlFor="name" className='form-wrapper-label'>Name</label>
-            <input type="text" onChange={(e)=> setName(e.target.value)} required id="name" name="name" className='form-wrapper-control' placeholder="Your name.."/>
+            <input type="text" onChange={(e)=> setName(e.target.value)} required id="name" name="name" className='form-wrapper-control' placeholder="John Doe.."/>
               
             </div>
             <div className="form-wrapper">
             <label htmlFor="email" className='form-wrapper-label'>Email Address</label>
             {/* <input type="text" id="lname" name="lastname" placeholder="Your last name.."/> */}
-            <input type="email" onChange={(e)=> setEmail(e.target.value)} required name="email" id="email"  className='form-wrapper-control'/>
+            <input type="email" onChange={(e)=> setEmail(e.target.value)} required name="email" id="email"  className='form-wrapper-control' placeholder='johndoe@gmail.com'/>
               
             </div>
             <div className="form-wrapper">

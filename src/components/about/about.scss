@@ -4,49 +4,74 @@
 
     background: rgb(0, 20, 29);
     color: white;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    &-contaner{
+    padding: 100px 0;
+    &-container{
         display: flex;
         align-items: center;
+        justify-content: center;
+        // background: red;
+        @include tablet{
+            display: block;
+        }
         @include mobile{
             display: block;
         }
         &-info{
             flex: 1;
+            margin: auto;
             min-width: 350px;
            padding: 10px;
+        //    background: red;
+           @include tablet {
+               width: 100%;
+               padding: 20px ;
+               width: 90%;
+           }
            &-heading{
                padding: 20px 0;
-               h2{
-                   font-size: 2rem;
-                   svg{
-                     color: $green;  
-                   }
+               @include mobile{
+                   padding: 0;
                }
-               .sub-title{
-                   color: $green;
-               }
+            //    margin: 40px;
+        //        h2{
+        //            font-size: 2rem;
+        //            svg{
+        //              color: $green;  
+        //            }
+        //        }
+        //        .sub-title{
+        //            color: $green;
+        //        }
            }
            .lead{
                line-height: 24px;
                letter-spacing: 1px;
                color: #eee;
+               text-align: left;
             //    font-size: 16px ;
                @include mobile{
-                   font-size: 14px;
+                   font-size: 16px;
                    padding: 20px 0;
+               }
+               @include tablet{
+                   line-height: 19px;
+                   font-size: 12px;
                }
            }
         }
         .photo{
             flex: 2;
-            width: 50%;
+            width: 70%;
             margin: 20px;
             position: relative;
+            @include mobile{
+                width: 80%;
+            }
             img{
                 width: 100%;
                 position: relative;

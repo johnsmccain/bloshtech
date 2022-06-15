@@ -59,9 +59,9 @@ export default function BasicTabs() {
 
       <Box sx={{ borderBottom: 1, borderColor: 'divider' ,fontSize: 50, color: "white"}} className="tab1" >
         <Tabs value={value} onChange={handleChange} centered >
-          <Tab className='tab_text'  label="Robotitcs" {...a11yProps(0)} />
-          <Tab  className='tab_text' label="Coding" {...a11yProps(1)} />
-          <Tab className='tab_text'  label="COMPETITION" {...a11yProps(2)} />
+          <Tab className='tab_text'  label={<p className='tab_font' style={{fontSize: '1.3rem'}}>Robotitcs</p>} {...a11yProps(0)} />
+          <Tab  className='tab_text' label={<div className='tab_font'>Coding</div>} {...a11yProps(1)} />
+          <Tab className='tab_text'  label={<span className='tab_font'>Competition</span>}{...a11yProps(2)} />
         </Tabs>
       </Box>
     {/* </div> */}
@@ -79,13 +79,15 @@ export default function BasicTabs() {
 
 
       <TabPanel value={value} index={0}>
-        <Activity  img={robot} svg={robotics} text="ROBOTIC TEAM BUIDING ACTIVITIES" />
+        <Activity  img={robot} svg={robotics} text="Our robotic Team building programme is designed to build a stronger unit of employees, breaking away from the monotony of work, relieve stress, have fun while at work, encourage creativity and collaboration, enhancing communication, Improve morale, increase productivity, trust. The program is designed for families, corporate, social and religious settings.
+
+" />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <Activity  img={coding} svg={codings} text="Scratch, Python, HTML, PHP, Android" />
+        <Activity  img={coding} svg={codings} text="Our Coding programme is designed to equip our learners with a computational thinking mindset. It provides learners ability to solve problems systematically, quickly fix a problem and deploy another strategy when something is not working. This programme also provides learners with opportunities to experiment their ideas, question the assumptions of their imagination, run into errors and learn from them. " />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <Activity  img={stem2} svg={stem} text="Events, Partnerships, Summer, Camps, National and International Competitions Online Streaming" />
+        <Activity  img={stem2} svg={stem} text="Our STEAM education will get pupils and students engrossed in hands-on investigation of STEAM concepts using everyday subject matter. This will enable kids to get real life experience and be able to solve real world problems." />
       </TabPanel>
     </Box>
   );

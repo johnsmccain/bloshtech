@@ -9,7 +9,7 @@ function Footer() {
            <div className="footer-container-info">
                 <h2>Take a ride with us <img src={rocket} className="icon"/></h2>   
                 <p>
-                Call & WhatsApp:<a href="tel:+2347061040362"> +2347061040362</a>
+                Call & WhatsApp:<a href="tel:09167853408"> +2349167853408</a>
 
                 </p>
                 <p>
