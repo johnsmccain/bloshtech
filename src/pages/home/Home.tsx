@@ -17,11 +17,8 @@ const Home = () => {
       
 
           <Services/>
-<<<<<<< HEAD
-          <Solutions/>
-=======
           <Partner/>
->>>>>>> 849145baa8a53fa2581aad702d786ea28d9c6263
+          <Solutions/>
           <Project/>
           <Testimonials /> 
           <About/>
