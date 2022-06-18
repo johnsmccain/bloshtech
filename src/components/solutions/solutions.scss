@@ -172,6 +172,7 @@
 
 
 .button{
+
     // position: relative;
     bottom:350px;
     // transform: translateX(20%);
@@ -198,6 +199,7 @@
     border-color: transparent;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
 }
 .button1:hover{
     background-color: white;
@@ -217,6 +219,7 @@
     border-radius: 4px;
     font-weight: 500;
     cursor: pointer;
+    font-size: 16px;
 }
 .button2:hover{
     background-color: #ffd700;
