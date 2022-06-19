@@ -13,6 +13,10 @@ function Footer() {
 
                 </p>
                 <p>
+                Call: <a href="tel:+1(571)334-7703"> +1 (571) 334 - 7703</a>
+
+                </p>
+                <p>
                 Email:<a href="mailto:bloshhub@gmail.com"> bloshhub@gmail.com</a>
                 </p>
             </div> 

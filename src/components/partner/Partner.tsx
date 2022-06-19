@@ -36,7 +36,7 @@ const Partner = () => {
   return (
     <div className='partner'>
         
-        <BigText title="we partner with " no_line/>
+        <BigText title="We partner with " no_line/>
         <div className="partner-wrapper">
             {PartnerList}
         </div>
