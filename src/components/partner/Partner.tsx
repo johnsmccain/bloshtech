@@ -2,6 +2,7 @@ import React from 'react'
 import BigText from '../bigTex/BigText'
 import './partner.scss'
 import conintrade from '../../assets/conintrade.jpeg'
+import Tme from '../../assets/tme.jpeg'
 import { Typography } from '@mui/material'
 
 const conpanies = [
@@ -11,17 +12,10 @@ const conpanies = [
     title: "Conintrade"
   },
   {
-    img: conintrade,
-    title: "Conintrade"
+    img: Tme,
+    title: "True Mustards Educational"
   },
-  {
-    img: conintrade,
-    title: "Conintrade"
-  },
-  {
-    img: conintrade,
-    title: "Conintrade"
-  },
+
 ]  
 
 const PartnerList = conpanies.map((company, index) => (
