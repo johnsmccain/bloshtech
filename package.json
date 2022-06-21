@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
-    "start": "env-cmd -f .env.production vite start",
-    "build:prod": "env-cmd -f .env.production vite build",
+    "preview": "vite preview",
+    "start": "env-cmd -f  vite start",
+    "build:prod": "env-cmd -f vite build"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
