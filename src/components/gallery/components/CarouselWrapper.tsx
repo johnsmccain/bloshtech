@@ -138,7 +138,7 @@ const CarouselWrapper = ({children, items, mode, showControls, loop}:any) => {
         if(loop) {
             setElements([...children, ...elements, ...children]);
         }// Loop feature is still under development...
-    }, []);
+    }, [children, creepToPosition, elements, loop]);
 
     useEffect(() => {
         window.addEventListener("mouseup", (e) => setDrag(false,e));
@@ -159,7 +159,7 @@ const CarouselWrapper = ({children, items, mode, showControls, loop}:any) => {
         if(loop) {
             switchTo(children.length)
         }
-    }, [items, mode, elements]);
+    }, [children.length, creepToPosition, dragging, loop, resetCarouselItemWidth, setDrag]);
 
     return (<div
         onMouseDown={(e) => setDrag(true,e)}

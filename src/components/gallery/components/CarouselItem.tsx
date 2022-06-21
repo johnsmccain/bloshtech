@@ -39,7 +39,7 @@ function CarouselItem({children, mode, index, items}:any) {
         window.addEventListener("mouseup",() => isMouseDown = false);
         window.addEventListener("touchstart",() => isMouseDown = true);
         window.addEventListener("touchend",() => isMouseDown = false);
-    }, [items, children]);
+    }, [items, children, index, mode]);
     
     return (
         <div className="rpc-content-item" ref={itemRef}>

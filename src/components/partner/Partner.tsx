@@ -3,7 +3,6 @@ import BigText from '../bigTex/BigText'
 import './partner.scss'
 import conintrade from '../../assets/conintrade.jpeg'
 import Tme from '../../assets/tme.jpeg'
-import { Typography } from '@mui/material'
 
 const conpanies = [
 

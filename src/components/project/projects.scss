@@ -51,7 +51,9 @@
         cursor: pointer;
         position: relative;
         overflow: hidden;
-        
+        .poster{
+            width: 100%;
+        }
         .video-overlay{
             position: absolute;
             // top: 0;

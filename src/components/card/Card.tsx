@@ -1,6 +1,4 @@
 import React,{FC} from 'react'
-import { Link } from 'react-router-dom'
-import icon from '../../assets/robotics.svg'
 import "./card.scss"
 interface IProps {
   img:any

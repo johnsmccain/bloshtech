@@ -1,0 +1,60 @@
+@import '../../../styles/mixin';
+@import '../../../styles/variable';
+
+ .tab1{
+     display: none;
+ }
+@include tablet{
+   .tab1{
+        display: block !important;
+  }
+    .tab2{
+        display: none !important;
+    }
+   
+}.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: $primary!important;
+    font: 1.3em sans-serif !important;
+    text-transform: capitalize !important;
+    @include mobile{
+        font-size: 2.3em !important;
+    }
+    @media screen and (min-width: 700px){
+        font-size: 10px;
+    }
+    
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: $primary!important;
+    font: 2.5em sans-serif !important;
+    .card-container {
+        box-shadow: 3px 3px 30px 0.03px $primary;
+
+    }
+    
+        // .card-container-info{
+        //     opacity: 1;
+        //     position: relative;
+        //     z-index: 1;
+        // }
+        
+   
+    @include mobile{
+        font-weight: bold !important;
+    }
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color: $primary !important;
+}
+.css-19kzrtu{
+    @include mobile{
+        padding: 5px 0 0 0 !important;
+    }
+}
+.tab_font{
+    @include tablet{
+        font-size: 16px !important;
+        // font: 2.5em sans-serif !important;
+
+    }
+}

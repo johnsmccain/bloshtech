@@ -1,7 +1,5 @@
 import React from 'react';
 import "./testimonial.scss";
-import { BsDash } from "react-icons/bs";
-// import {Slide} from "@mui/material"
 import {BsArrowUpRight} from "react-icons/bs"
 import Slider from "./slider/Slider"
 import BigText from '../bigTex/BigText';
