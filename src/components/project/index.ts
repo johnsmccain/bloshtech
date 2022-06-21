@@ -1,5 +1,5 @@
-import BT_Forklift from '../../videos/BT_Forklift_1.mp4'
-import BT_Robotics_maze_mission from '../../videos/BT_Robotics_maze_mission.mp4'
+import BT_Forklift from '../../videos/BT_Forklift_1.webm'
+import BT_Robotics_maze_mission from '../../videos/BT_Robotics_maze_mission.webm'
 import coding_class from '../../videos/coding_class.mp4'
 import Dancer_robot from '../../videos/Dancer_robot.mp4';
 import OBJECT_AVOIDANCE from '../../videos/OBJECT_AVOIDANCE.mp4';
