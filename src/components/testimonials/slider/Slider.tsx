@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import rb from '../../../assets/Fejiro.jpeg'
-import rb1 from '../../../assets/Tofunmi.jpeg'
-import rb2 from '../../../assets/Leo.jpeg'
+import rb from '../../../assets/Fejiro.jpg'
+import rb1 from '../../../assets/Tofunmi.jpg'
+import rb2 from '../../../assets/Leo.jpg'
+import rb3 from '../../../assets/logo.png'
 import "./slide.scss"
 import Scard from "./Scard";
 let data = [
@@ -29,7 +30,7 @@ let data = [
   {
     name: 'Mr. Giwa',
     profesion: " Principal Crescent Pearl Leadership Academy - Abuja",
-    // profile: rb2,
+    profile: rb3,
     desc: "Blosh Tech Educational Hub is the perfect mix of learning and technology. Students will be immersed in 21st century skills in a fun and exciting way."
   },
 

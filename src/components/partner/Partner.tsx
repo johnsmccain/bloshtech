@@ -1,8 +1,8 @@
 import React from 'react'
 import BigText from '../bigTex/BigText'
 import './partner.scss'
-import conintrade from '../../assets/conintrade.jpeg'
-import Tme from '../../assets/tme.jpeg'
+import conintrade from '../../assets/conintrade.png'
+import Tme from '../../assets/tme.png'
 
 const conpanies = [
 
