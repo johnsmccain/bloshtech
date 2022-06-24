@@ -3,6 +3,7 @@ import { videos } from './index'
 import mediaIcon from "../../assets/foundation_play-video.svg"
 import "./projects.scss"
 import BigText from '../bigTex/BigText'
+import ReactPlayer from 'react-player/lazy'
 
 function Projects() {
 
@@ -33,7 +34,12 @@ function Projects() {
               </div>
             ))
           }
+
         </div>
+
+        {/* <ReactPlayer controls url={videos[2].vid}/>
+
+        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' /> */}
        
     </div>
   )
