@@ -4,7 +4,7 @@ const Scard = (props:any) => {
     const [troncate, settroncate] = useState(150)
      
   return (
-    <div style={{height: `${troncate > 150 ? '80vh': '286px'   }`}}>
+    <div style={{height: '80vh'}}>
           <img src={props.profile}  alt='person'/>
           <div className="myCarousel">
             <h3>{props.name}</h3>
