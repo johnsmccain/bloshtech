@@ -13,7 +13,7 @@ export default function Solutions() {
         <ul className='solution-list'>
           <li className="solution-listitem">
             <h2 className='solution-item-number'>01</h2>
-            <p className='info1'>Possible world class coding, robotics and STEM <br/>education</p>
+            <p className='info1'>Provide world class coding, robotics and STEM <br/>education</p>
           </li>
           <li className="solution-listitem">
             <h2 className='solution-item-number'>02</h2>
