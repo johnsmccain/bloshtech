@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "blosh tech",
   "version": "0.1.0",
   "private": true,
   "typings": "./index.d.ts",
@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.0.5",
     "framer-motion": "^6.3.2",
     "react": "^18.2.0",
+    "react-aws-s3": "^1.5.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.3.1",
     "react-player": "^2.10.1",
