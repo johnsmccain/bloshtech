@@ -41,7 +41,7 @@ export default class Testimonials extends Component {
       <Carousel className="carousel"
         showArrows={true}
         infiniteLoop={true}
-        showThumbs={false}
+        showThumbs={true}
         showStatus={false}
         autoPlay={true}
         interval={6100} 
@@ -51,29 +51,6 @@ export default class Testimonials extends Component {
           
         ))}
 
-        {/* <div>
-          <img src={rb} />
-          <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
-            <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <img src={rb} />
-          <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
-            <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
-            </p>
-          </div>
-        </div> */}
       </Carousel>
     );
   }

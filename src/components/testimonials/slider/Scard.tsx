@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Scard = (props:any) => {
-    const [troncate, settroncate] = useState(170)
+    const [troncate, settroncate] = useState(200)
      
   return (
     <div style={{height: `${troncate > 200 ? '80vh': '300px'   }`}}>
