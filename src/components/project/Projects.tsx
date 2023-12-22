@@ -9,15 +9,15 @@ function Projects() {
 
   const [selectedVideo, setSelectedVideo]:any = useState(null)
 
- 
+
   return (
     <div className='project' id="work">
-    
+
         <div className="bg-overlay">
-            
+
         </div>
         <BigText title="Our projects" color="white"/>
-        
+
         <div className="project-container">
           {
             videos.map(item => (
@@ -40,7 +40,7 @@ function Projects() {
         {/* <ReactPlayer controls url={videos[2].vid}/>
 
         <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' /> */}
-       
+
     </div>
   )
 }
